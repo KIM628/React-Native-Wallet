@@ -37,6 +37,7 @@ export default function Page() {
     loadData();
   }, [loadData]);
 
+  // console.log("userId",user.id)
 
   const handleDelete = (id) => {
     Alert.alert(

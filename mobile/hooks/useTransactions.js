@@ -49,7 +49,7 @@ export const useTransactions = (userId) => {
     } finally {
       setIsLoading(false);
     }
-  }, [fetchTransactions, fetchSummary, userId]);
+  }, [fetchTransactions, fetchSummary,userId]);
 
   const deleteTransaction = async (id) => {
     try {
